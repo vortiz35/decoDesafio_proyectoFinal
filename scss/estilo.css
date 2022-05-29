@@ -32,8 +32,8 @@
 }
 
 .intro iframe {
-  height: 300px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
   -o-object-fit: fill;
      object-fit: fill;
   margin-bottom: 30px;
@@ -145,6 +145,7 @@ header {
   font-size: 15px;
   text-align: center;
   padding: 15px;
+  opacity: 0.85;
   font-family: 'Indie Flower', cursive;
 }
 
