@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--logo de la pag-->
+    <link rel="shortcut icon" href="./Media/Logo/favicon.ico">
+    <!--FUENTE ELEGIDA PARA HEADER-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!--FUENTE ELEGIDA PARA EL RESTO DE LA WEB-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <!--PARA LA ANIMACIÓN DEL ENCABEZADO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Estilo bootstrap y propio-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>DecoDesafio </title>
+
+    <!--SEO-->    
+    <meta name="description" content="Productos de interior y exterior, con diseño y onda para tu hogar. Ideas de decoración.">
+    <meta name="keywords"  content="DECORACIÓN, INTERIOR, EXTERIOR, DISEÑO, DESIGN, PRODUCTOS, MACETAS, ILUMINACIÓN">
+
+</head>
+<body class="contenedor">
+    <header class="barraArriba">        
+        <h1 id="subir1" class="animate__animated animate__lightSpeedInRight">¡Bienvenidos a DecoDesafío!</h1>
+        <nav class="navbar navbar-expand-lg navbar-light menu">
+            <div class="container-fluid ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./2exterior.html">Exterior</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./3interior.html">Interior</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./4ideas.html">Ideas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./5contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">        
+        <h2>Ideas que pueden inspirarte</h2>
+        <!---Pequeña intro con ideas--> 
+        <div class="row"> 
+                     
+            <div class="col-sm-12 col-md-12 col-lg-6 intro">
+                <iframe src="https://www.youtube.com/embed/snFokQORm20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 text-righ intro">
+                <p>Un valor añadido en las habitaciones es la combinación de materiales y formas. En este sentido, es importante que nada quede aislado o en solitario, es preferible que haya una relación entre todos los recursos para lograr un discurso estético. El factor esencial es conseguir una casa en armonía. Puedes utilizar también la iluminación para dar calidez a tus rincones, procura que sea natural y utiliza cortinas translúcidas que tamicen la luz.</p>
+            </div>
+        <!---Ingreso directo a Interior y Exterior--> 
+            <h2>¡Mirá nuestros productos!</h2>
+            <div class="imgDeIntro">
+              <div class="col-sm-12 col-md-12 col-lg-6 contieneImgE">
+                <a href="./2exterior.html">
+                  <div class="efectoTxt">
+                    <p class="aparece">EXTERIOR</p>
+                  </div>
+               </a>                
+              </div>
+              
+              <div class="col-sm-12 col-md-12 col-lg-6 contieneImgI">
+                <a href="./3interior.html">
+                  <div class="efectoTxt">
+                    <p class="aparece">INTERIOR</p>
+                  </div>
+               </a>
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer class="container">
+        <div class="row">
+            <div class="col-8">
+                <p>DecoDesafío Design</p> 
+                <a href="./5contacto.html">Contacto</a>
+            </div>
+            <div class="col-4">
+                <img src="./Media/Logo/favicon-32x32.png" alt="Logo en pie">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

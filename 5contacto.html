@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--logo de la pag-->
+    <link rel="shortcut icon" href="./Media/Logo/favicon.ico">
+    <!--FUENTE ELEGIDA PARA HEADER-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <!--FUENTE ELEGIDA PARA EL RESTO DE LA WEB-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <!--PARA LA ANIMACIÓN DEL ENCABEZADO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Estilo bootstrap y propio-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>DecoDesafio - Contacto</title>
+</head>
+<body class="contenedor">
+    <header class="barraArriba">
+        <h1 id="subir5">CONTACTO 💌</h1>
+        <nav class="navbar navbar-expand-lg navbar-light menu">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./2exterior.html">Exterior</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./3interior.html">Interior</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./4ideas.html">Ideas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./5contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="espacioMain">       
+        
+    <!---Tabla con Bootstrap-->
+        <h3>Dónde encontrarnos 🚀  </h3>
+
+        <div class="container">
+            <table class="table m-2">
+                <thead>
+                    <tr class="table-secondary"><!---Fila 1 títulos--->
+                        <th scope="col">SEDE</th>
+                        <th scope="col">Ubicación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-info"><!---Fila 2 Sede Belgrano--->
+                        <td>Belgrano</td>
+                        <td>Bla bla bla bla</td>
+                    </tr>
+                    <tr class="table-warning"><!---Fila 3 Sede Cardales--->
+                        <td>Cardales</td>
+                        <td>Bla bla bla bla</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <!--PROBANDO FORMULARIO con Bootstrap-->
+        <h3>Envianos tu consulta 📭</h3>
+       
+        <form class="row g-3 m-5">
+            <div class="col-7">
+                <label for="validationDefault01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationDefault01" value="...">
+            </div>
+            <div class="col-7 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">E-mail*:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="col-7 mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                    Quiero recibir novedades
+                    </label>
+                </div>
+            </div>
+            <div class="col-6">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-8">
+                <p>DecoDesafío Design</p> 
+                <a href="./5contacto.html">Contacto</a>
+            </div>
+            <div class="col-4">
+                <img src="./Media/Logo/favicon-32x32.png" alt="Logo en pie">
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

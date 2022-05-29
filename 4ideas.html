@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--logo de la pag-->
+    <link rel="shortcut icon" href="./Media/Logo/favicon.ico">
+    <!--FUENTE ELEGIDA PARA HEADER-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <!--FUENTE ELEGIDA PARA EL RESTO DE LA WEB-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <!--PARA LA ANIMACIÓN DEL ENCABEZADO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Estilo bootstrap y propio-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    
+    <title>DecoDesafio - Ideas 💡</title>
+</head>
+<body class="contenedor">
+    <header class="barraArriba">
+        <h1 id="subir4">IDEAS 💡</h1>
+        <nav class="navbar navbar-expand-lg navbar-light menu">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./2exterior.html">Exterior</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./3interior.html">Interior</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./4ideas.html">Ideas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./5contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container"> <!--USAR ESTE FORMATO-->       
+        <h2>¿Y si lo hacés vos?</h2>
+        
+        <div class="row"> 
+        <!---Texto+Iframe-->         
+            <div class="col-sm-12 col-md-12 col-lg-6 text-righ intro">
+              <h3>Transformá tus rincones</h3>  
+              <p>Si te has aburrido de la decoración que tienes en casa, ¿por qué no empezar a cambiarla? ¡Anímate y empieza a darle más personalidad!</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 intro">
+                <iframe src="https://www.youtube.com/embed/9DVlSR-cFT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3>Algunas ideas para inspirarte</h3>
+        <!---Carousel-->
+            <div class="col-sm-12 col-md-6 col-lg-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./Media/Imagen/idea3.JPG" class="d-block w-100" alt="idea1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Media/Imagen/idea4.JPG" class="d-block w-100" alt="idea2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Media/Imagen/idea5.JPG" class="d-block w-100" alt="idea3">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Media/Imagen/idea2.JPG" class="d-block w-100" alt="idea4">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 intro">
+                <p>Para inspirarte, te dejamos estas imágenes con algunas claves básicas para que siempre aciertes en la elección de elementos y colores, y te conviertas en una profesional del interiorismo.</p>
+                <ol class="listaIdeas">
+                  <li>Iluminación natural y cálida.</li>
+                  <li>Plantas de interior.</li>
+                  <li>Texturas agradables.</li>
+                  <li>Cuida la sencillez.</li>
+                  <li>Crea rincones personales.</li>
+                </ol>
+            </div>
+        </div>
+        
+    </main>
+
+    
+    <footer class="container">
+      <div class="row">
+          <div class="col-8">
+              <p>DecoDesafío Design</p> 
+              <a href="./5contacto.html">Contacto</a>
+          </div>
+          <div class="col-4">
+              <img src="./Media/Logo/favicon-32x32.png" alt="Logo en pie">
+          </div>
+      </div>
+  </footer>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
